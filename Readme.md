@@ -15,6 +15,7 @@
 To run this API use the following command
 `uvicorn main:app --reload --port 5000`
 
+The notebook 'TEST API Notebook' contains a basic test of the API functionality but more robust testing would be implemented with more time.
 
 ### Areas for development
 1. flexibility of models to load
