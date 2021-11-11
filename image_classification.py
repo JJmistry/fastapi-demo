@@ -1,7 +1,5 @@
-from PIL import Image
-
-# for model
 import tensorflow as tf
+from PIL import Image
 from tensorflow.keras.applications import densenet
 from tensorflow.keras.utils import img_to_array
 
@@ -18,7 +16,7 @@ def load_densenet(name="densenet121"):
         classes=1000,
     )
     model.save(name)
-   
+
     return model
 
 

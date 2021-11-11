@@ -1,8 +1,9 @@
-from fastapi import FastAPI, File, UploadFile
 import io
 
-from image_classification import load_densenet, process_image_for_tf
+from fastapi import FastAPI, File, UploadFile
 from tensorflow.keras.applications.imagenet_utils import decode_predictions
+
+from image_classification import load_densenet, process_image_for_tf
 
 # load model
 model = load_densenet()

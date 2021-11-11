@@ -7,14 +7,16 @@
 4. respond with {"response": "cat"}
 
 `conda create --name fastapi-ml`
+
 `conda activate fastapi-ml`
+
 `pip install -r requirements.txt`
 
 To run this API use the following command
 `uvicorn main:app --reload --port 5000`
 
 
-Areas for development
+### Areas for development
 1. flexibility of models to load
 2. basic CI/CD using Github to test
 3. Write tests (pytest preferred), I think there are some fastAPI tools I havent explored yet
